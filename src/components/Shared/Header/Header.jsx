@@ -5,7 +5,7 @@ import { MdArrowOutward } from "react-icons/md";
 const Header = () => {
   return (
     <div className='max-w-[1160px] mx-auto'>
-      <Navbar fluid rounded>
+      <Navbar fluid rounded className='lg:px-0'>
         <Navbar.Brand className='cursor-pointer'>
           <img src={navLogo} className='w-[124px]' alt='Doc Plus Logo' />
         </Navbar.Brand>
